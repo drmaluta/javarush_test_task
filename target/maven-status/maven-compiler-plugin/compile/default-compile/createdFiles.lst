@@ -1,0 +1,11 @@
+com\mike\javarush\controller\AppController.class
+com\mike\javarush\dao\UserDaoImpl.class
+com\mike\javarush\configuration\AppConfig.class
+com\mike\javarush\service\UserService.class
+com\mike\javarush\service\UserServiceImpl.class
+com\mike\javarush\configuration\HibernateConfiguration.class
+com\mike\javarush\dao\AbstractDao.class
+com\mike\javarush\PaginationTaglib.class
+com\mike\javarush\configuration\AppInitializer.class
+com\mike\javarush\dao\UserDao.class
+com\mike\javarush\domain\User.class
