@@ -49,10 +49,8 @@
     </table>
 
     <br>
-    </br>
-    <a href="${mainUrl}"><input type="button" value="Return to Users List"/>
+    <a href="${mainUrl}"><input type="button" value="Return to Users List"/></a>
     <br>
-    </br>
 
 </div>
 

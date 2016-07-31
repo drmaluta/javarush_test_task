@@ -55,7 +55,6 @@
         </tbody>
     </table>
     <br>
-    </br>
     <form action="${serrchUrl}">
 
         <strong>Search Users:</strong> <input type='text' name='name' id='name'/>
@@ -63,14 +62,12 @@
 
     </form>
     <br>
-    </br>
     <c:url var="home" value="/userspage" />
     <tag:paginate max="10" offset="${offset}" count="${count}" uri="${home}" next="&raquo;" previous="&laquo;" />
     <br>
-    </br>
         <a href="${addUrl}"><input type="button" value="Add user"/></a>
     <br>
-    </br>
+
 
 </div>
 
