@@ -83,14 +83,14 @@ public class AppController {
     @RequestMapping(value = {"/users/edit"}, method = RequestMethod.POST)
     public String saveEdit(@Valid User user, BindingResult result, Model model) {
         if (result.hasErrors()) {
-            return "editage";
+            return "editpage";
         }
 
         /*
         if (service.addUser(user)){
             FieldError nameError =new FieldError("user","name",messageSource.getMessage("non.unique.name", new String[]{user.getName()}, Locale.getDefault()));
             result.addError(nameError);
-            return "editage";
+            return "editpage";
         }*/
 
         service.updateUser(user);
